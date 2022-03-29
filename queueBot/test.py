@@ -5,7 +5,7 @@ import matchmaking
 import test2
 
 bot = commands.Bot(command_prefix="$")
-token = "REMOVED_DISCORD_TOKEN"
+token = Token
 
 
 @bot.event
