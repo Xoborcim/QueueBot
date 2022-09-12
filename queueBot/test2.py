@@ -38,6 +38,5 @@ async def create_tournament_code(tournament_id):
 
 async def output_tournament():
     tournament_code = await create_tournament_code(tournament_id)
-    code = tournament_code[0]
-    return code
+    return tournament_code[0]
 
