@@ -1,7 +1,12 @@
 from pantheon import pantheon
 import asyncio
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
 server = "na1"
-api_key = Rito Api Key
+api_key = os.getenv("RIOT_API_KEY", "")
 data = {
   "mapType": "SUMMONERS_RIFT",
   "pickType": "TOURNAMENT_DRAFT",
